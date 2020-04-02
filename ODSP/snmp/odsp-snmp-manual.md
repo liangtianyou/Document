@@ -1,7 +1,3 @@
----
-typora-root-url: ..\..\static\images
----
-
 # ODSP SNMP功能模块介绍
 [TOC]
 
@@ -159,21 +155,27 @@ snmptrapd -d -f -Lo
 
 选择“SNMP管理”选项页，点击“创建用户”按钮创建SNMP V3用户。
 
-![创建SNMP用户](odsp51_snmp_user1.png)
+![创建SNMP用户](..\..\static\images\odsp51_snmp_user1.png)
 
 在弹出的“创建SNMPv3用户”对话框里按提示填写相关内容，点击“添加”提交。
 
-![创建SNMP用户](odsp51_snmp_user2.png)
+![创建SNMP用户](..\..\static\images\odsp51_snmp_user2.png)
 
 创建成功后列表会列出新创建的用户。
 
-![创建SNMP用户](odsp51_snmp_user3.png)
+![创建SNMP用户](..\..\static\images\odsp51_snmp_user3.png)
 
 ### 7.2 SNMP Trap配置
 选择“SNMPTrap管理”选项页，点击“SNMPTrap设置”按钮打开SNMPTrap设置界面。
-![SNMPTrap设置](odsp51_snmp_trap1.png)
+
+![SNMPTrap设置](..\..\static\images\odsp51_snmp_trap1.png)
+
 在弹出的“创建SNMPTrap”对话框里按提示填写相关内容，点击“添加”提交。
-![SNMPTrap设置](odsp51_snmp_trap2.png)
+
+![SNMPTrap设置](..\..\static\images\odsp51_snmp_trap2.png)
+
 创建成功后列表会列出新创建的管理地址。
-![SNMPTrap设置](odsp51_snmp_trap3.png)
+
+![SNMPTrap设置](..\..\static\images\odsp51_snmp_trap3.png)
+
 **Tips**：添加是**SNMP**管理地址，当磁盘或RAID出现异常时，会触发Trap发送信息到该地址。
